@@ -1,25 +1,34 @@
-<center> 
-<h1 style="color:#00686E"> Hoja Guía de Aprendizaje Máquina </h1> 
-&copy Robins Yadav - la mágia empieza aquí.
+<center>
 
-Una traducciión libre realizada por la comunidad @GDGcde
+  <h1 style="color:#00686E"> Hoja Guía de Aprendizaje Máquina </h1> 
+
+  &copy Robins Yadav - la magia empieza aquí.
+
+  Una traducción libre realizada por la comunidad @GDGcde
+
 </center>
-Mi Githbub
-[https://github.com/robinyUArizona](https://github.com/robinyUArizona)
+
+Mi Githbub [https://github.com/robinyUArizona](https://github.com/robinyUArizona)
 
 Repositorio de la traducción [https://github.com/gdgcde/Machine-Learning-Cheatshee-ES-](https://github.com/gdgcde/Machine-Learning-Cheatshee-ES-)
 
-<h2 style="color:#00686E"> Aprendizaje Máquina en General </h2>
+<h2 style="color:#00686E">Aprendizaje Máquina en General</h2>
+
 ### Definición
+
 Queremos enseñar a una función objetivo *f* que asigne una variable de entrada *X* para una variable de salida *Y* con un error *e*
+
 <center>
-*y=f(X) + e*
+
+  *y=f(X) + e*
+
 </center>
+
 <h2 style="color:#00686E"> Lineal, No lineal </h2>
 
-Diferentes algoritmos hacen diferentes suposiciones sobre la forma y
-estructura de la función objetivo *f* . Cualquier algoritmo puede ser:
+  Diferentes algoritmos hacen diferentes suposiciones sobre la forma y estructura de la función objetivo *f*. Cualquier algoritmo puede ser:
 
-* **Paramétrico (o lineal):** simplifica el mapeo a una forma de combinacion lineal conocida y aprende de sus coeficientes.
+* **Paramétrico (o lineal):** simplifica el mapeo a una forma de combinación lineal conocida y aprende de sus coeficientes.
 * **No paramétrico (o no lineal):** libre para aprender cualquier forma funcional a partir de los datos de entrenamiento, manteniendo cierta capacidad para generalizar.
 
+> **Nota:** Los algoritmos lineales suelen ser más simples, rápidos y requieren menos datos, mientras que los algoritmos no lineales pueden ser más flexibles, más poderosos y con un mejor rendimiento.
